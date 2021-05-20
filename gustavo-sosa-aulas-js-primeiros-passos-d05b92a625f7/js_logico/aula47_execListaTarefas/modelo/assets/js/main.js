@@ -65,12 +65,12 @@ function salvarTarefas() {
     localStorage.setItem('tarefas', tarefasJSON); // salvando item no navegador
 }
 
-function adicionaTarefasSalvas(){
-   const tarefas = localStorage.getItem('tarefas');
-   const listaDeTarefas = JSON.parse(tarefas); //convertendo nossas tarefas que estao em stringfy no json para array novamente, convertendo um objeto json para js novamente
-   
-   for(let tarefa of listaDeTarefas){
-       criaTarefa(tarefa);
-   }
+function adicionaTarefasSalvas() {
+    const tarefas = localStorage.getItem('tarefas');
+    const listaDeTarefas = JSON.parse(tarefas); //convertendo nossas tarefas que estao em stringfy no json para array novamente, convertendo um objeto json para js novamente
+
+    for (let tarefa of listaDeTarefas) {
+        criaTarefa(tarefa);
+    }
 }
 adicionaTarefasSalvas();
