@@ -14,8 +14,8 @@ function soma(x, y) {
     return x + y;
 }
 try {
-    console.log(soma(1, 2));
-    console.log(soma('1', 10));
+    console.log(soma(1, "@"));
+    console.log(soma('e', 10));
 } catch (e) {
     console.log('Algum erro ocorreu, verifique os dados informados');
 }
