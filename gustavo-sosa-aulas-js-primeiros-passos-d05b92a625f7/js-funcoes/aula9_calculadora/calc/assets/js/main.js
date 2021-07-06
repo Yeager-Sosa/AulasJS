@@ -1,6 +1,6 @@
 function criaCalculadora() {
 
-  return {
+  return { //criando um objeto
     display: document.querySelector('.display'),
     btnClear: document.querySelector('.btn-clear'),
 
