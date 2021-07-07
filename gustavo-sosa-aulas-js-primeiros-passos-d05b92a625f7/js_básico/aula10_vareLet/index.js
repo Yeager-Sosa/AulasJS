@@ -1,6 +1,6 @@
-const nomeAspasSimples'gustavo'; //string
-const nomeAspas "gustavo";//string
-const nomeCrase `gustavo`;//string
+const nomeAspasSimples = 'gustavo'; //string
+const nomeAspas = "gustavo";//string
+const nomeCrase = `gustavo`;//string
 
 const num = 10; //number
 const num1 = 10.5; // number
