@@ -1,4 +1,4 @@
-let num1 = 0.7;
+let num1 = 10;
 let num2 = 0.3;
 
 num1 = parseFloat(num1.toFixed(2));
